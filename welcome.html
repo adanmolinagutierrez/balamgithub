@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido - Tareas por Subir</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .task-container {
+            padding: 20px;
+        }
+        .task-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .task-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .task-item p {
+            margin: 0;
+        }
+        .btn {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+        .btn:hover {
+            background-color: #ff4e9b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a tu Lista de Tareas</h1>
+        <p>Aquí puedes gestionar todas tus tareas pendientes.</p>
+    </header>
+
+    <div class="task-container">
+        <h2>Tareas por Subir</h2>
+
+        <ul class="task-list">
+            <!-- Aquí se llenan las tareas pendientes -->
+            <li class="task-item">
+                <p><strong>Tarea 1:</strong> Subir informe de trabajo</p>
+                <button class="btn">Subir Tarea</button>
+            </li>
+            <li class="task-item">
+                <p><strong>Tarea 2:</strong> Terminar la presentación para la junta</p>
+                <button class="btn">Subir Tarea</button>
+            </li>
+            <!-- Puedes agregar más tareas dinámicamente aquí -->
+        </ul>
+    </div>
+
+</body>
+</html>
